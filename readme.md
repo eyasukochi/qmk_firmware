@@ -1,3 +1,11 @@
+# ELLISON NOTES:
+BUILD it (from root of this project)
+make handwired/dactyl_manuform/5x6:default
+FLASH it (from root of this project)
+make handwired/dactyl_manuform/5x6:default:avrdude
+You might have to short reset to ground while it's looking for the usb device
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
